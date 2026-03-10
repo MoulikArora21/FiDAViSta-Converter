@@ -113,7 +113,7 @@ This project was developed by a dedicated team with the following contributions:
 - **Cong Minh Tran**: Project Manager
 - **Hemant**: Logic Developer
 - **Anas Mehmood**: Documentation
-- **Akshat Dhingra**: Backend Developer
+- **Akshat Dhingra**: Backend Developer Assistant
 - **Aman Pathak**: Frontend Developer
 - **Rakesh Gudimetla**: Testing
 - **Moulik Arora**: Backend Developer
