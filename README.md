@@ -1,4 +1,4 @@
-# DIP392-CHAAARM
+# FiDAViSta-Converter
 
 A software solution designed to assist accountants in converting financial data (transactions, statements, etc.) from CSV or PDF files into FiDAViSta-compliant XML format. This tool automates the conversion process with fast processing times and an intuitive graphical user interface (GUI) for easy navigation.
 
@@ -16,6 +16,29 @@ This software streamlines the conversion of financial data into the FiDAViSta XM
 - **Fast Processing**: Quickly converts CSV and PDF files into XML.
 - **User-Friendly GUI**: Intuitive interface for selecting modes, uploading files, and managing clients.
 - **Multiple Modes**: Supports Etsy, Revolut, and Wise transaction processing.
+
+## Screenshots
+
+### Main Interface
+
+![Main Screen](Screenshots/main-screen.png)
+
+### Mode Selection
+
+![Modes](Screenshots/modes.png)
+
+### File Input
+
+![Data Input](Screenshots/data-input.png)
+
+### Client Management
+
+![Clients](Screenshots/clients.png)
+![Add Client](Screenshots/add-clients.png)
+
+### Generated XML Output
+
+![Generated XML](Screenshots/generated-xml.png)
 
 ## System Requirements
 
@@ -66,6 +89,7 @@ The GUI is designed for ease of use, with three main modes:
 - **Wise Mode**: Requires Transaction CSV.
 
 Each mode includes:
+
 - **File Upload Sections**: For Transactions, Orders, or Invoices, with **Browse Files** and **Clear Files** buttons.
 - **Client Selection**: A dropdown menu at the bottom to select or manage clients.
 - **Process Button**: Initiates the conversion process.
@@ -86,6 +110,7 @@ To generate FiDAViSta-compliant XML files:
 ## Client Management
 
 Manage client profiles by clicking **Edit Clients**:
+
 - **Add**: Create new client profiles with name, bank account, legal ID, and transaction count.
 - **Edit**: Update existing client information.
 - **Delete**: Remove outdated or unnecessary profiles.
@@ -94,11 +119,11 @@ Manage client profiles by clicking **Edit Clients**:
 
 ## Supported Modes
 
-| Mode      | Required Files                     | Description                              |
-|-----------|------------------------------------|------------------------------------------|
-| **Etsy**  | Transaction CSV, Orders CSV, Invoice PDFs | Processes Etsy transaction and order data with invoices. |
-| **Revolut** | Transaction CSV                  | Converts Revolut bank statement data.     |
-| **Wise**  | Transaction CSV                    | Converts Wise transaction data.           |
+| Mode        | Required Files                            | Description                                              |
+| ----------- | ----------------------------------------- | -------------------------------------------------------- |
+| **Etsy**    | Transaction CSV, Orders CSV, Invoice PDFs | Processes Etsy transaction and order data with invoices. |
+| **Revolut** | Transaction CSV                           | Converts Revolut bank statement data.                    |
+| **Wise**    | Transaction CSV                           | Converts Wise transaction data.                          |
 
 ## Troubleshooting
 
@@ -106,15 +131,20 @@ Manage client profiles by clicking **Edit Clients**:
 - **File Not Found**: Verify that all required CSV/PDF files are uploaded for the selected mode.
 - **Crashes**: Check the console logs (run with console enabled) and report issues with steps to reproduce.
 
+## Client Feedback
+
+> "I finally got it tested and I am impressed about the speed
+> and simplicity. Great work!"
+> — Client, SIA PayBaltic
+
 ## Contributions
 
 This project was developed by a dedicated team with the following contributions:
 
+- **Moulik Arora**: Backend Lead (Core logic, XML generation, data parsing pipeline)
 - **Cong Minh Tran**: Project Manager
-- **Hemant**: Logic Developer
-- **Anas Mehmood**: Documentation
-- **Akshat Dhingra**: Backend Developer Assistant
 - **Aman Pathak**: Frontend Developer
+- **Akshat Dhingra**: Backend Developer Assistant
+- **Anas Mehmood**: Documentation
+- **Hemant**: Logic Developer
 - **Rakesh Gudimetla**: Testing
-- **Moulik Arora**: Backend Developer
-
